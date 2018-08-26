@@ -1,2 +1,2 @@
 #!/bin/sh
-~/./ngrok http -auth="username:password" 4550
+~/./ngrok http -bind-tls=true -auth="username:password" 4550
