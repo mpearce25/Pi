@@ -6,5 +6,5 @@ start = filetext.index("ngrok.io", 0, len(filetext)) - 9
 url = filetext[start:start + 17]
 
 html = open('CNAME','r+')
-html.write('%s%s' % ("http://", url))
+html.write(url)
 html.close()
