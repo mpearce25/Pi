@@ -1,2 +1,2 @@
 #!/bin/sh
-~/./ngrok http 4550
+~/./ngrok http -auth="username:password"4550
