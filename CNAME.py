@@ -12,6 +12,6 @@ nocaching = "<meta http-equiv=\'cache-control\' content=\'no-cache\'/>"
 endtags = "\n\t</head>\n\t<body>\n\t\thello world\n\t</body>\n</html>"
 
 html = open('index.html','r+')
-html.write('%s%s%s%s%s' % (heading1, url,"\'\"/>\n\t\t", nocaching,endtags))
+html.write('%s%s%s%s%s' % (heading1, url,"\'/>\n\t\t", nocaching,endtags))
 html.close()
 
